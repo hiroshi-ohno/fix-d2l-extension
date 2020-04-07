@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "Fix D2L remote plug-in iframe size issue",
+  "version": "0.1.0",
+  "description": "D2L Insert Stuff UI provides iframe to the remote plug-in which is taller than actual rendering area. This extension fixes it.",
+ 
+  "content_scripts": [{
+    "matches": ["https://*/d2l/common/dialogs/isf/selectItem.d2l*"],
+    "js": ["script.js"],
+    "all_frames": true
+  }],
+  
+  "permissions" : []
+}
