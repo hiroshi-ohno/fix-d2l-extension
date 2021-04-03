@@ -1,4 +1,9 @@
 # Chrome extension to fix D2L remote plug-in rendering area issue
+
+**D2L fixed this issue in February 2021. This extension is not needed anymore, and the tool is withdrawn from the Chrome Web Store.**
+
+----
+
 This chrome extension adjusts the height of the iframe area of D2L remote plug-in. You may install it from [Chrome Web Store](https://chrome.google.com/webstore/detail/lblffcdcpmceadnpephfplpaifddeago).
 
 I am a developer of a D2L remote plug-in and I have struggled with the fact that D2L provides the plug-in a certain size of iframe region but it does not render all of it. Rendering area is always roughly 50 pixels shorter than actual iframe size.
